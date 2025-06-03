@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Babaannemi Ye</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+      padding-top: 20%;
+      font-size: 3em;
+      transition: background-color 0.5s;
+    }
+  </style>
+  <script>
+    function randomColor() {
+      const colors = ["#ff6b6b", "#feca57", "#1dd1a1", "#54a0ff", "#5f27cd", "#222f3e"];
+      document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    }
+    setInterval(randomColor, 1000);
+  </script>
+</head>
+<body>
+  babaannemi ye
+</body>
+</html>
